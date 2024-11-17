@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "treatment": "Teeth Cleaning",
+      "image": "https://example.com/images/teeth-cleaning.jpg",
+      "description": "Professional teeth cleaning to remove plaque and tartar, ensuring oral hygiene.",
+      "cost": 50
+    },
+    {
+      "id": 2,
+      "treatment": "Dental Filling",
+      "image": "https://example.com/images/dental-filling.jpg",
+      "description": "Restoration of decayed teeth using durable and aesthetic filling materials.",
+      "cost": 100
+    },
+    {
+      "id": 3,
+      "treatment": "Root Canal Therapy",
+      "image": "https://example.com/images/root-canal.jpg",
+      "description": "Treatment to repair and save a badly decayed or infected tooth.",
+      "cost": 300
+    },
+    {
+      "id": 4,
+      "treatment": "Teeth Whitening",
+      "image": "https://example.com/images/teeth-whitening.jpg",
+      "description": "Cosmetic procedure to lighten teeth and remove stains or discoloration.",
+      "cost": 150
+    },
+    {
+      "id": 5,
+      "treatment": "Dental Implant",
+      "image": "https://example.com/images/dental-implant.jpg",
+      "description": "Surgical procedure to replace missing teeth with artificial teeth that look and function like natural ones.",
+      "cost": 1200
+    },
+    {
+      "id": 6,
+      "treatment": "Braces (Orthodontics)",
+      "image": "https://example.com/images/braces.jpg",
+      "description": "Orthodontic treatment to straighten teeth and correct bite issues.",
+      "cost": 2500
+    },
+    {
+      "id": 7,
+      "treatment": "Wisdom Tooth Extraction",
+      "image": "https://example.com/images/wisdom-tooth-extraction.jpg",
+      "description": "Surgical removal of impacted or problematic wisdom teeth.",
+      "cost": 200
+    },
+    {
+      "id": 8,
+      "treatment": "Dental Crown",
+      "image": "https://example.com/images/dental-crown.jpg",
+      "description": "Cap placed over a tooth to restore its shape, size, and strength.",
+      "cost": 500
+    }
+  ]
+  

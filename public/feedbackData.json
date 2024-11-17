@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "treatment": "Teeth Cleaning",
+      "rating": 4.5,
+      "feedback": "The service was excellent! My teeth feel so much cleaner, and the dentist explained everything clearly.",
+      "date": "2024-11-15"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "treatment": "Dental Filling",
+      "rating": 4.0,
+      "feedback": "Quick and painless! The filling looks natural, and I am very satisfied with the result.",
+      "date": "2024-10-20"
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "treatment": "Root Canal Therapy",
+      "rating": 5.0,
+      "feedback": "I was so nervous about the root canal, but the staff made me feel at ease. It was a smooth and professional experience.",
+      "date": "2024-11-01"
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "treatment": "Teeth Whitening",
+      "rating": 4.8,
+      "feedback": "My teeth look amazing! The whitening procedure was effective and worth every penny.",
+      "date": "2024-10-10"
+    },
+    {
+      "id": 5,
+      "name": "Chris Johnson",
+      "treatment": "Dental Implant",
+      "rating": 5.0,
+      "feedback": "The dental implant feels just like a real tooth. The entire process was seamless, and I’m very happy with the results.",
+      "date": "2024-09-25"
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "treatment": "Braces (Orthodontics)",
+      "rating": 4.7,
+      "feedback": "I’m halfway through my braces treatment, and the progress is incredible. The dentist is very attentive and professional.",
+      "date": "2024-08-15"
+    },
+    {
+      "id": 7,
+      "name": "David Wilson",
+      "treatment": "Wisdom Tooth Extraction",
+      "rating": 4.3,
+      "feedback": "The extraction was done efficiently with minimal discomfort. The aftercare instructions were very helpful.",
+      "date": "2024-10-30"
+    },
+    {
+      "id": 8,
+      "name": "Isabella Anderson",
+      "treatment": "Dental Crown",
+      "rating": 5.0,
+      "feedback": "The crown looks perfect! I couldn’t be happier with how it turned out. Highly recommend this clinic.",
+      "date": "2024-11-05"
+    }
+  ]
+  
