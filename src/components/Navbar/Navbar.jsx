@@ -14,7 +14,7 @@ const Navbar = () => {
             <NavLink to='profile'>Profile</NavLink>
         </div>
         <div>
-            <button className='btn btn-success'>Login</button>
+            <NavLink to='/login'><button className='btn btn-success'>Login</button></NavLink>
         </div>
     </div>
   )

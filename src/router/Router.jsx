@@ -5,6 +5,9 @@ import AllTreatments from "../components/AllTreatments/AllTreatments";
 import MyAppointment from "../components/MyAppointment/MyAppointment";
 import Profile from "../components/Profile/Profile";
 import Details from "../components/Details.jsx/details";
+import Login from "../components/Login/Login";
+import Register from "../components/Register/Register";
+import PrivateRoute from "../components/PrivateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -31,7 +34,9 @@ const router = createBrowserRouter([
             },
             {
                 path:'/myappointment',
-                element:<MyAppointment></MyAppointment>
+                element:<PrivateRoute>
+                    <MyAppointment></MyAppointment>
+                </PrivateRoute>
             },
             {
                 path:'/profile',
@@ -39,7 +44,9 @@ const router = createBrowserRouter([
             },
             {
                 path:'/details/:id',
-                element:<Details></Details>,
+                element:<PrivateRoute>
+                    <Details></Details>
+                </PrivateRoute>,
                 loader:async ({params})=>{
                     const detailRes =await fetch('/dentalData.json')
                     const detailData = await  detailRes.json()
@@ -47,6 +54,14 @@ const router = createBrowserRouter([
                     return singleData
 
                 }
+            },
+            {
+                path:'/login',
+                element:<Login></Login>
+            },
+            {
+                path:'/register',
+                element:<Register></Register>
             }
         ]
     }
